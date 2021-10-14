@@ -1,0 +1,12 @@
+body{
+    background: bisque;
+}
+.center{
+    color: darkred;
+    text-align: center;
+    font-size: 40px;
+}
+.brown{
+    color: #c73546;
+    text-align: justify;
+}
