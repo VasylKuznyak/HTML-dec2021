@@ -1,0 +1,26 @@
+.header_top {
+    height: 100px;
+    background-color: royalblue;
+}
+
+.header_bot {
+    height: 80px;
+    background-color: darkblue;
+}
+
+.main {
+    width: 80%;
+    height: 500px;
+    background-color: deepskyblue;
+}
+
+.aside {
+    width: 20%;
+    height: 500px;
+    background-color: cornflowerblue;
+}
+
+.footer {
+    height: 100px;
+    background-color: lightskyblue;
+}
