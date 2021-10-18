@@ -1,0 +1,30 @@
+.blue {
+    background-color: royalblue;
+}
+
+.mg {
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.dark_blue {
+    background-color: darkblue;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.box {
+    height: 250px;
+    width: 380px;
+}
+
+.h300 {
+    height: 300px;
+}
