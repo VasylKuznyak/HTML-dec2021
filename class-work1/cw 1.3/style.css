@@ -1,0 +1,22 @@
+.header, .footer {
+    display: flex;
+}
+
+.header__item, .middle {
+    background-color: cornflowerblue;
+    margin: 5px;
+    height: 300px;
+    flex-grow: 1;
+}
+
+.middle {
+    height: 280px;
+}
+
+.footer__item {
+    background-color: darkblue;
+    flex-grow: 1;
+    height: 250px;
+    margin: 5px;
+}
+
