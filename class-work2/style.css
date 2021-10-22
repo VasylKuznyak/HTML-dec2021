@@ -177,3 +177,173 @@
     font-size: 22px;
     font-weight: 700;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.middle {
+    background-color: var(--light);
+}
+
+.middle_text, .paragraph {
+    display: flex;
+    justify-content: center;
+}
+
+.middle_text > h2 {
+    padding: 40px;
+    color: var(--blue);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.middle_cards {
+    display: flex;
+    column-gap: 40px;
+}
+
+.middle_card {
+    border: 2px solid var(--aqua);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle_card__square {
+    margin: 0 auto;
+    height: 100px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.middle_card__title {
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    color: var(--blue);
+}
+
+.middle_card p {
+    text-align: center;
+    padding-bottom: 20px;
+    color: var(--blue)
+}
+
+.middle_card__bot {
+    border-top: solid 1px var(--aqua);
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+
+.card_bot__left {
+    height: 20px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.card_bot__right {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+}
+
+.bot_right__item {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.last_left, .last_right {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 80px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    background-color: var(--light);
+    padding-bottom: 60px;
+}
+
+.last_left {
+    background-color: var(--blue);
+    width: 400px;
+}
+
+.last_right {
+    background-color: var(--aqua);
+    width: 400px;
+}
+
+.left_title > h3, .Right_title > h3 {
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.left_title > h3, .left_text > p {
+    color: var(--aqua);
+}
+
+.Right_title > h3, .Right_text > p {
+    color: var(--blue);
+}
+
+.last button {
+    align-items: flex-end;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.last_left button {
+    background-color: var(--aqua);
+}
+
+.last_right button {
+    background-color: var(--blue);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue);
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    column-gap: 8px;
+    height: 100px;
+    align-items: center;
+}
+
+.footer_items {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: var(--light);
+}
+
+.footer_line {
+    border-top: solid 1px var(--aqua);
+    height: 60px;
+    width: 20%;
+}
+
