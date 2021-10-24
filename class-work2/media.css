@@ -1,0 +1,104 @@
+@media screen and (max-width: 375px) {
+    .soc-icon {
+        padding: 0 25px
+    }
+
+    .wrapper {
+        padding: 0 20px;
+    }
+
+    .header_top {
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+    .header_top__grid {
+        align-items: flex-start;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav a {
+        font-size: 14px;
+    }
+
+    .header_main {
+        padding-top: 30px;
+    }
+
+    .header_main button {
+        margin-bottom: 30px;
+    }
+
+    .main_products {
+        padding: 25px;
+    }
+
+    .main_products__title___list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 30px 0;
+    }
+
+    .about_grid {
+        flex-direction: column;
+    }
+
+    .about_grid__card {
+        width: 320px;
+        padding: 10px;
+    }
+
+    .middle_text > h2 {
+        padding: 20px
+    }
+
+    .middle_cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .last {
+        padding-bottom: 40px;
+    }
+
+    .last_left, .last_right {
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .left_title > h3, .Right_title > h3 {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .left_text, .Right_text {
+        padding: 20px;
+    }
+
+    .last button {
+        margin-top: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer {
+        height: 70px;
+    }
+
+    .footer_line {
+        height: 20px;
+    }
+}
