@@ -1,0 +1,52 @@
+@media screen and (max-width: 400px) {
+    .header_menu {
+        display: none;
+    }
+
+    .header_logo img {
+        width: 50px;
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header_top {
+        padding-top: 20px;
+    }
+
+    .nav_btn__mobile {
+        display: flex;
+    }
+
+    .header_title {
+        text-align: center;
+    }
+
+    .header_title h2 {
+        font-size: 30px;
+    }
+
+    .header_title h1 {
+        font-size: 40px;
+    }
+
+    .header_title h1 {
+        font-size: 40px;
+        line-height: 36px;
+    }
+
+    .header_title p::before, .header_title p::after {
+        display: none;
+    }
+
+    .benefits {
+        flex-direction: column;
+        row-gap: 31px;
+    }
+
+    .box {
+        right: 163px;
+    }
+}
