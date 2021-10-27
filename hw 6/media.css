@@ -47,6 +47,31 @@
     }
 
     .box {
-        right: 163px;
+        right: 5px;
+    }
+
+    .history_pictures {
+        display: none;
+    }
+
+    .history_order {
+        height: 450px;
+    }
+
+    .history_black {
+        flex-direction: column;
+    }
+
+    .history_black button {
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .history_text__num p {
+        padding-bottom: 70px;
+    }
+
+    .history_black__left h2 {
+        padding-top: 12px;
     }
 }

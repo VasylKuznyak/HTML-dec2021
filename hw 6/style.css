@@ -177,8 +177,8 @@ section {
 
 .benefits {
     display: flex;
-    column-gap: 31px;
-    margin: 0 166px;
+    justify-content: center;
+    column-gap: 70px;
 }
 
 .box {
@@ -237,10 +237,6 @@ section {
 
 .history {
     display: flex;
-}
-
-.history_text {
-    padding-left: 50px;
 }
 
 .history_text h2 {
@@ -311,4 +307,38 @@ section {
     position: relative;
     right: 500px;
     top: 40px;
+}
+
+.history_order {
+    max-width: 1440px;
+    height: 357px;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.history_black {
+    display: flex;
+    column-gap: 331px;
+    justify-content: center;
+    align-items: center;
+}
+
+.history_black__left h2 {
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    padding-top: 80px;
+}
+
+.history_black__left p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.history_black button {
+    margin-top: 70px;
+    margin-right: 90px;
 }
