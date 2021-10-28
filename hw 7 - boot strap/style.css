@@ -1,0 +1,127 @@
+.body {
+    background: #E5E5E5;
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.first_screen_left h1 {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+    margin-top: 103px;
+}
+
+.first_screen_left .first_screen_text {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 140px;
+    position: relative;
+}
+
+.first_screen_text {
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.first_screen_left .first_screen_text::before,
+.first_screen_left .first_screen_text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+
+.first_screen_left .first_screen_text::before {
+    top: -55px;
+}
+
+.first_screen_left .first_screen_text::after {
+    bottom: -55px;
+}
+
+.first_screen_right img {
+    width: 100%;
+}
+
+.first_screen_text-two {
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+
+.first_screen_left h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #1652AC;
+}
+
+@media screen and (max-width: 400px) {
+    .first_screen_left h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+}
+
+.blue_part__right {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+
+.blue_part__right h3,
+.gradient_left h2 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+
+.blue_part__right p,
+.gradient_left p {
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+
+}
+
+.gradient_left h2 {
+    text-transform: uppercase;
+    color: #1652AC;
+    margin-top: 91px;
+}
+
+.gradient_left p {
+    color: #45494F;
+    margin-top: 50px;
+}
+
+
