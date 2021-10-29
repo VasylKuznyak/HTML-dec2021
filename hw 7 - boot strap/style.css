@@ -110,13 +110,17 @@
     font-size: 17px;
     line-height: 32px;
     color: #FBFDFF;
+}
 
+.gradient_left {
+    width: 556px;
+    height: 396px;
 }
 
 .gradient_left h2 {
     text-transform: uppercase;
     color: #1652AC;
-    margin-top: 91px;
+    margin-top: 150px;
 }
 
 .gradient_left p {
@@ -124,4 +128,138 @@
     margin-top: 50px;
 }
 
+.gradient_right img {
+    position: relative;
+    left: 72px;
+}
 
+.table_item {
+    background: #FFFFFF;
+    width: 394px;
+    height: 136px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.table_item h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    color: #020303;
+}
+
+.table_item p {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+}
+
+.table_item img {
+    width: 70px;
+    height: 45px;
+    padding-left: 30px;
+}
+
+.list {
+    width: 1200px;
+    height: 864px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    margin-top: 57px;
+}
+
+.list_title h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 4.42px;
+    color: #020303;
+}
+
+.list_left p,
+.list_right p {
+    font-size: 17px;
+    line-height: 60px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+}
+
+.nav_title h2 {
+    margin-top: 74px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4.42px;
+    color: #020303;
+}
+
+.navigation {
+    padding-right: 270px;
+}
+
+.navigation_dots img {
+    margin-left: 10px;
+}
+
+.navigation button {
+    width: 126px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 0 0 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    border: none;
+}
+
+.nav_title h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 2.42px;
+    color: #020303;
+}
+
+.nav_btns button,
+.footer_btn {
+    width: 394.55px;
+    height: 64px;
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+    border: 1px solid #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: 1.42px;
+    color: #FAFBFE;
+}
+
+.footer_left h2 {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.footer_middle {
+    width: 420px;
+}
+
+.footer_left p {
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #464C53;
+}
+
+.footer_btn {
+    width: 306px;
+    height: 69px;
+}
