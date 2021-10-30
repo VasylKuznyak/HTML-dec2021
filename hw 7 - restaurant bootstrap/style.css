@@ -9,7 +9,8 @@ header {
 }
 
 .navbar button,
-.main_part button {
+.main_part button,
+.footer_right button {
     width: 157px;
     height: 47px;
     background: #FF7400;
@@ -68,7 +69,7 @@ header {
     margin: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1199px) {
     .main_part p::before,
     .main_part p::after {
         display: none;
@@ -78,12 +79,107 @@ header {
         font-size: 30px;
         line-height: 30px;
     }
+
     .main_part p {
-         line-height: 10px;
+        line-height: 10px;
     }
 
     .main_part h3 {
         font-size: 30px;
         line-height: 10px;
     }
+}
+
+.history,
+.history_main {
+    background: #E5E5E5;
+}
+
+.history_item {
+    position: relative;
+    min-width: 349px;
+    min-height: 328px;
+    bottom: 120px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gold {
+    color: #D67E34;
+}
+
+.history_item h3,
+.history_item p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.history_item p {
+    color: #656363;
+}
+
+.history_left h2,
+.footer_left h2,
+.dishes_title h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+
+.history_left p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #656363;
+}
+
+.history_right img,
+.dishes_menu img {
+    width: 100%;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.footer_left h2 {
+    color: #D67E34;
+}
+
+.footer_left p,
+.burgers p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.burgers p {
+    color: #000000;
+    margin-left: 10px;
+}
+
+.burger_line::before {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 1px;
+    background-color: olivedrab;
+    text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+    .burger_line::before {
+        display: none;
     }
+
+    .burger p {
+        font-size: 17px;
+    }
+}
