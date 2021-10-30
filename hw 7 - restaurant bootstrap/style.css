@@ -1,0 +1,64 @@
+header {
+    height: 100vh;
+    background: url("images/hero image.png") no-repeat center/cover;
+}
+
+.navbar-nav {
+    border-right: 1px solid white;
+    padding-right: 30px;
+}
+
+.navbar button,
+.main_part button {
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.nav-link p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.nav-contacts p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.main_part h2 {
+    font-style: normal;
+    font-weight: normal;
+    width: 430px;
+    height: 57px;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+
+.main_part h1 {
+    font-style: normal;
+    font-weight: normal;
+    width: 556px;
+    height: 85px;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+
+.main_part p {
+    width: 169px;
+    height: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}

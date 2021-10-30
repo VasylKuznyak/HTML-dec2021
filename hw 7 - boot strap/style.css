@@ -67,7 +67,7 @@
     bottom: -55px;
 }
 
-.first_screen_right img {
+.first_screen_right img, .blue_part__left img {
     width: 100%;
 }
 
@@ -111,6 +111,7 @@
     line-height: 32px;
     color: #FBFDFF;
 }
+
 
 .gradient_left {
     width: 556px;
