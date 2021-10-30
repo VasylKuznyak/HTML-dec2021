@@ -36,8 +36,6 @@ header {
 .main_part h3 {
     font-style: normal;
     font-weight: normal;
-    width: 430px;
-    height: 57px;
     font-size: 43px;
     line-height: 57px;
     color: #D67E35;
@@ -47,25 +45,45 @@ header {
 .main_part h1 {
     font-style: normal;
     font-weight: normal;
-    width: 556px;
-    height: 85px;
     font-size: 80px;
     line-height: 70px;
     color: #D67E35;
 }
 
 .main_part p {
-    width: 169px;
-    height: 25px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 50px;
     color: #FFFFFF;
 }
+
 .main_part p::before,
-.main_part p::after{
+.main_part p::after {
+    content: "";
+    text-align: center;
     width: 61px;
     height: 2px;
     background: #C4C4C4;
+    margin: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+    .main_part p::before,
+    .main_part p::after {
+        display: none;
+    }
+
+    .main_part h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .main_part p {
+         line-height: 10px;
+    }
+
+    .main_part h3 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    }
