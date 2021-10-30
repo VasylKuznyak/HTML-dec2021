@@ -33,14 +33,15 @@ header {
     color: #FFFFFF;
 }
 
-.main_part h2 {
+.main_part h3 {
     font-style: normal;
     font-weight: normal;
     width: 430px;
     height: 57px;
-    font-size: 50px;
+    font-size: 43px;
     line-height: 57px;
     color: #D67E35;
+    margin-top: 204px;
 }
 
 .main_part h1 {
@@ -49,7 +50,7 @@ header {
     width: 556px;
     height: 85px;
     font-size: 80px;
-    line-height: 92px;
+    line-height: 70px;
     color: #D67E35;
 }
 
@@ -61,4 +62,10 @@ header {
     font-size: 18px;
     line-height: 25px;
     color: #FFFFFF;
+}
+.main_part p::before,
+.main_part p::after{
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
 }
