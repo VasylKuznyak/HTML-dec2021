@@ -67,7 +67,9 @@
     bottom: -55px;
 }
 
-.first_screen_right img, .blue_part__left img {
+.first_screen_right img,
+.blue_part__left img,
+.nav_image img {
     width: 100%;
 }
 
@@ -112,12 +114,6 @@
     color: #FBFDFF;
 }
 
-
-.gradient_left {
-    width: 556px;
-    height: 396px;
-}
-
 .gradient_left h2 {
     text-transform: uppercase;
     color: #1652AC;
@@ -131,7 +127,7 @@
 
 .gradient_right img {
     position: relative;
-    left: 72px;
+    left: 25px;
 }
 
 .table_item {
@@ -165,8 +161,6 @@
 }
 
 .list {
-    width: 1200px;
-    height: 864px;
     background: #FFFFFF;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
@@ -199,10 +193,6 @@
     color: #020303;
 }
 
-.navigation {
-    padding-right: 270px;
-}
-
 .navigation_dots img {
     margin-left: 10px;
 }
@@ -227,7 +217,7 @@
 
 .nav_btns button,
 .footer_btn {
-    width: 394.55px;
+    width: 350px;
     height: 64px;
     background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
     box-sizing: border-box;
@@ -243,14 +233,10 @@
 
 .footer_left h2 {
     font-weight: bold;
-    font-size: 34px;
+    font-size: 30px;
     line-height: 43px;
     letter-spacing: -0.4px;
     color: #1652AC;
-}
-
-.footer_middle {
-    width: 420px;
 }
 
 .footer_left p {
@@ -263,4 +249,15 @@
 .footer_btn {
     width: 306px;
     height: 69px;
+}
+
+@media screen and (max-width: 960px) {
+    .gradient_left {
+        text-align: center;
+    }
+
+    .gradient_right img,
+    .navigation button {
+        display: none;
+    }
 }
