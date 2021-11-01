@@ -77,7 +77,8 @@ nav {
     border-radius: 2px;
 }
 
-.nav_bot__btn {
+.nav_bot__btn,
+.carousel-item button {
     width: 164px;
     height: 53px;
     background: #005BB9;
@@ -128,4 +129,103 @@ nav {
     width: 0;
     height: 100%;
     border: 1px solid #E1E5F8;
+}
+
+.carousel-item {
+    width: 950px;
+    background: url(images/background-carousel-blue.png);
+    border-radius: 30px;
+}
+
+.carousel-item h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+
+.carousel-item p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+}
+
+.carousel_btn p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.price h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+
+.price h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.carousel_right_top,
+.carousel_right_bot{
+    width: 336px;
+    height: 190px;
+    background: #F4F5FA;
+    border-radius: 10px;
+}
+.carousel_right_top p,
+.carousel_right_bot p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+}
+.carousel_right__title h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+     color: #0A1A2C;
+}
+.carousel_right__title p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #525252;
+}
+.carousel_right__price p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.carousel_right__price span{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+.carousel_right__price button{
+    width: 57px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
 }
