@@ -85,7 +85,7 @@ nav {
     border-radius: 6px;
 }
 
-.nav_bot button p {
+.nav_bot button span {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -154,7 +154,7 @@ nav {
     color: #717171;
 }
 
-.carousel_btn p {
+.carousel_btn span {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -181,51 +181,115 @@ nav {
 }
 
 .carousel_right_top,
-.carousel_right_bot{
+.carousel_right_bot {
     width: 336px;
-    height: 190px;
+    height: 175px;
     background: #F4F5FA;
     border-radius: 10px;
 }
+
 .carousel_right_top p,
-.carousel_right_bot p{
+.carousel_right_bot p {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #0F2438;
 }
-.carousel_right__title h2{
+
+.carousel_right__title h2 {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
-     color: #0A1A2C;
+    color: #0A1A2C;
 }
-.carousel_right__title p{
+
+.carousel_right__title p {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     color: #525252;
 }
-.carousel_right__price p{
+
+.carousel_right__price p {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 23px;
     color: #FFB800;
 }
-.carousel_right__price span{
+
+.carousel_right__price span {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
-.carousel_right__price button{
+
+.carousel_right__price button {
     width: 57px;
     height: 49px;
     background: #005BB9;
     border-radius: 6px;
+}
+
+.carousel_bot {
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 431px;
+    height: 184px;
+}
+
+.carousel_bot h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #0A1A2C;
+}
+
+.carousel_bot p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+
+.carousel_bot button {
+    width: 86px;
+    height: 26px;
+    background: #005BB9;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.middle_buttons{
+    column-gap: 25px;
+}
+
+.middle_buttons button{
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+}
+
+.middle_buttons .middle_button__blue{
+    background: #005BB9;
+    color: #FFFFFF;
 }
