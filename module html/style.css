@@ -8,6 +8,7 @@ header {
 .carousel_right_top p,
 .carousel_right_bot p,
 .card_review p,
+.navbar-toggler span,
 .location p,
 .nav_bot__icons p {
     font-style: normal;
@@ -23,6 +24,9 @@ header {
 
 .navbar_right a {
     text-decoration: none;
+}
+.navbar-collapse ul{
+    list-style: none;
 }
 
 .company img {

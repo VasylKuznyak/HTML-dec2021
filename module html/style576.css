@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+    .nav_top {
+        column-gap: 0;
+    }
+
+    .nav_bot__btn {
+        width: 70px;
+    }
+    .input-group button {
+        width: 70px;
+}
+}
