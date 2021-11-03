@@ -6,7 +6,72 @@
     .nav_bot__btn {
         width: 70px;
     }
+
     .input-group button {
         width: 70px;
-}
+    }
+
+    .carousel_grip__img img {
+        width: 155px;
+    }
+
+    .carousel-item__left h1 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .whatsapp p,
+    .company_name p,
+    .carousel-item__left p,
+    .carousel_bot__title p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .price h2 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .card-title,
+    .company_name h2,
+    .contacts h2,
+    .price h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .carousel-item {
+        border-radius: 15px;
+    }
+
+    .carousel_bot__title p {
+        width: 150px;
+    }
+
+    .product_img img {
+        width: 149px;
+        height: 127px;
+    }
+
+    .card_btn {
+        width: 110px;
+        height: 35px;
+    }
+
+    .product {
+        padding-right: 30px;
+    }
+
+    .card_btn {
+        margin-right: 20px;
+    }
+
+    .news_columns {
+        row-gap: 30px
+    }
+
+    .input-group {
+        max-width: 350px;
+    }
 }

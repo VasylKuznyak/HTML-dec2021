@@ -25,7 +25,8 @@ header {
 .navbar_right a {
     text-decoration: none;
 }
-.navbar-collapse ul{
+
+.navbar-collapse ul {
     list-style: none;
 }
 
@@ -52,6 +53,10 @@ header {
     font-size: 12px;
     line-height: 14px;
     color: #0F2438;
+}
+
+.contacts p {
+    text-decoration-line: underline;
 }
 
 .hours p {
@@ -114,7 +119,7 @@ nav {
 
 .input-group {
     margin-right: 85px;
-    max-width: 600px;
+    max-width: 520px;
     height: 53px;
     background: #F4F5FA;
     border-radius: 6px 0 0 6px;
@@ -141,7 +146,7 @@ nav {
 }
 
 .carousel-item {
-    width: 950px;
+    max-width: 950px;
     background: url(images/background-carousel-blue.png);
     border-radius: 30px;
 }
@@ -191,8 +196,6 @@ nav {
 
 .carousel_right_top,
 .carousel_right_bot {
-    width: 336px;
-    height: 175px;
     background: #F4F5FA;
     border-radius: 10px;
 }
@@ -272,6 +275,7 @@ nav {
 }
 
 .middle_buttons {
+    width: max-content;
     column-gap: 25px;
 }
 
@@ -349,11 +353,6 @@ nav {
     column-gap: 20px;
 }
 
-.products_top,
-.products_bot {
-    column-gap: 39px;
-}
-
 .products_top {
     border-bottom: 1px solid #E1E5F8;
 }
@@ -400,6 +399,17 @@ nav {
     color: #000000;
 }
 
+.news_columns h4 {
+    width: 106px;
+    height: 22px;
+    background: #0C1A2A;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .news_text h5 {
     font-style: normal;
     font-weight: normal;
@@ -431,12 +441,15 @@ footer {
 }
 
 .footer_title h2,
-.footer_column h4,
 .footer_column h3 {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer_list h3 span {
     color: #FFFFFF;
 }
 

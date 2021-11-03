@@ -71,7 +71,7 @@
 
     <nav>
         <div class="container">
-            <div class="nav_top align-items-center d-flex pt-5">
+            <div class="nav_top align-items-center d-flex pt-2 pt-sm-5">
                 <div class="company d-flex">
                     <img src="images/logo%20company.png" alt="company logo">
                     <div class="company_name">
@@ -93,7 +93,7 @@
                     </div>
                     <p>Невский пр-т, д. 45</p>
                 </div>
-                <span class="d-flex flex-column-reverse align-items-center flex-sm-row">
+                <div class="d-flex flex-column-reverse align-items-center flex-sm-row">
                     <div class="whatsapp me-sm-5 d-flex justify-content-center align-items-center">
                         <div class="whatsapp_img pe-2">
                             <img src="images/whatsapp%20(2)%201.png" alt="whatsapp logo">
@@ -104,7 +104,7 @@
                         <h2>+7 383 291 92 86</h2>
                         <p class="text-end">форма обратной связи</p>
                     </div>
-                </span>
+                </div>
             </div>
 
             <div class="nav_bot align-items-center d-flex mt-4 pb-4">
@@ -121,7 +121,8 @@
                            aria-label="Recipient's username" aria-describedby="basic-addon2">
                     <button type="button" class="btn d-flex align-items-center justify-content-center">
                         <span class="m-0 d-none d-sm-block">Найти</span>
-                        <span class="m-0 d-block d-sm-none"><img src="images/search%20(2)%201.png" alt="search logo"></span>
+                        <span class="m-0 d-block d-sm-none"><img src="images/search%20(2)%201.png"
+                                                                 alt="search logo"></span>
                     </button>
                 </div>
                 <div class="nav_bot__icons d-none d-sm-flex align-items-center">
@@ -150,16 +151,16 @@
 
     <section>
         <div class="container">
-            <div class="carousel d-flex pt-4">
+            <div class="carousel overflow-hidden d-flex flex-sm-row flex-column pt-4">
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active d-flex justify-content-center align-items-center">
-                            <div class="carousel-item__left ps-5">
+                        <div class="p-2 mb-3 carousel-item active d-flex justify-content-center align-items-center">
+                            <div class="carousel-item__left pt-3 pb-3 ps-sm-5 ps-3">
                                 <h1>Сцепление в сборе</h1>
                                 <p>0AMCLUTCH</p>
-                                <div class="price d-flex">
-                                    <h2>14 499,99 ₽</h2>
-                                    <h3 class="m-auto">18 550,99 ₽</h3>
+                                <div class="price d-flex flex-sm-row flex-column-reverse">
+                                    <h2 class="pe-2">14 499,99 ₽</h2>
+                                    <h3 class="m-0">18 550,99 ₽</h3>
                                 </div>
                                 <div class="carousel_btn">
                                     <button type="button" class="btn d-flex justify-content-center align-items-center">
@@ -170,19 +171,22 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="carousel_dots d-flex align-self-end justify-content-center pb-3">
+                            <div class="carousel_dots d-none d-sm-flex align-self-end justify-content-center pb-3">
                                 <img src="images/dots.png" alt="dots icon">
                             </div>
-                            <img src="images/avt-zap.png" alt="grip">
+                            <div class="carousel_grip__img">
+                                <img src="images/avt-zap.png" alt="grip">
+                            </div>
                         </div>
+
                     </div>
-                    <button class="justify-content-start carousel-control-prev" type="button"
+                    <button class="d-none d-sm-flex justify-content-start carousel-control-prev" type="button"
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="prev">
                         <img src="images/left.png" alt="left">
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="justify-content-end carousel-control-next" type="button"
+                    <button class="d-none d-sm-flex justify-content-end carousel-control-next" type="button"
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="next">
                         <img src="images/right.png" alt="right">
@@ -190,7 +194,7 @@
                     </button>
                 </div>
 
-                <div class="carousel_right">
+                <div class="carousel_right d-flex flex-row flex-sm-column">
                     <div class="carousel_right_top p-3 ms-2 mb-2">
                         <div class="carousel_right_product d-flex">
                             <div class="carousel_right__img">
@@ -229,24 +233,24 @@
 
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner pt-4 d-flex">
-                    <div class="carousel_bot active d-flex justify-content-between me-4">
-                        <div class="carousel_bot__title p-4">
+                    <div class="carousel_bot active d-flex justify-content-between p-2 me-4">
+                        <div class="carousel_bot__title p-3">
                             <h2>Масла</h2>
                             <p>Трансмиссионное масло; <br>присадка в масло акпп</p>
                             <button type="button" class="btn">Перейти</button>
                         </div>
                         <img src="images/oil.png" alt="oil">
                     </div>
-                    <div class="carousel_bot active d-flex justify-content-between me-4">
-                        <div class="carousel_bot__title p-4">
+                    <div class="carousel_bot active d-flex justify-content-between p-2 me-4">
+                        <div class="carousel_bot__title p-3">
                             <h2>Фильтры</h2>
                             <p>Масляный фильтр; <br>фильтр воздушный</p>
                             <button type="button" class="btn">Перейти</button>
                         </div>
                         <img src="images/filter.png" alt="filter">
                     </div>
-                    <div class="carousel_bot active d-flex justify-content-between">
-                        <div class="carousel_bot__title p-4">
+                    <div class="carousel_bot active d-flex justify-content-between p-2">
+                        <div class="carousel_bot__title p-3">
                             <h2>Радиаторы</h2>
                             <p>Дополнительные радиаторы</p>
                             <button type="button" class="btn">Перейти</button>
@@ -254,13 +258,13 @@
                         <img src="images/radiator.png" alt="radiator">
                     </div>
 
-                    <button class="justify-content-start carousel-control-prev" type="button"
+                    <button class="d-none d-sm-flex justify-content-start carousel-control-prev" type="button"
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="prev">
                         <img src="images/left.png" alt="left">
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="justify-content-end carousel-control-next" type="button"
+                    <button class="d-none d-sm-flex justify-content-end carousel-control-next" type="button"
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="next">
                         <img src="images/right.png" alt="right">
@@ -275,8 +279,8 @@
                 <button type="button" class="btn">Сейчас покупают</button>
             </div>
 
-            <div class="products_top d-flex">
-                <div class="product pt-3">
+            <div class="products_top d-flex justify-content-between">
+                <div class="product pt-4">
                     <div class="product_img">
                         <img src="images/details.png" alt="detail image">
                     </div>
@@ -295,9 +299,11 @@
                                 <img src="images/basket%20w.png" alt="basket icon">
                                 <a href="#" class="ps-2">В корзину</a>
                             </div>
-                            <div class="card_icons d-flex align-items-center ps-3">
+                            <div class="card_icons d-flex align-items-center p-1 p-sm-3">
                                 <img src="images/like.png" alt="like icon">
-                                <img src="images/scale.png" alt="scale icon">
+                                <span class="d-none d-sm-block">
+                                    <img src="images/scale.png" alt="scale icon">
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -321,9 +327,11 @@
                                 <img src="images/basket%20w.png" alt="basket icon">
                                 <a href="#" class="ps-2">В корзину</a>
                             </div>
-                            <div class="card_icons d-flex align-items-center ps-3">
+                            <div class="card_icons d-flex align-items-center p-1 p-sm-3">
                                 <img src="images/like.png" alt="like icon">
-                                <img src="images/scale.png" alt="scale icon">
+                                <span class="d-none d-sm-block">
+                                    <img src="images/scale.png" alt="scale icon">
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -347,9 +355,11 @@
                                 <img src="images/basket%20w.png" alt="basket icon">
                                 <a href="#" class="ps-2">В корзину</a>
                             </div>
-                            <div class="card_icons d-flex align-items-center ps-3">
+                            <div class="card_icons d-flex align-items-center p-1 p-sm-3">
                                 <img src="images/like.png" alt="like icon">
-                                <img src="images/scale.png" alt="scale icon">
+                                <span class="d-none d-sm-block">
+                                    <img src="images/scale.png" alt="scale icon">
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -373,16 +383,18 @@
                                 <img src="images/basket%20w.png" alt="basket icon">
                                 <a href="#" class="ps-2">В корзину</a>
                             </div>
-                            <div class="card_icons d-flex align-items-center ps-3">
+                            <div class="card_icons d-flex align-items-center p-1 p-sm-3">
                                 <img src="images/like.png" alt="like icon">
-                                <img src="images/scale.png" alt="scale icon">
+                                <span class="d-none d-sm-block">
+                                    <img src="images/scale.png" alt="scale icon">
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="products_bot d-flex">
+            <div class="products_bot justify-content-between d-flex">
                 <div class="product pt-4">
                     <div class="product_img">
                         <img src="images/details.png" alt="detail image">
@@ -402,9 +414,11 @@
                                 <img src="images/basket%20w.png" alt="basket icon">
                                 <a href="#" class="ps-2">В корзину</a>
                             </div>
-                            <div class="card_icons d-flex align-items-center ps-3">
+                            <div class="card_icons d-flex align-items-center p-1 p-sm-3">
                                 <img src="images/like.png" alt="like icon">
-                                <img src="images/scale.png" alt="scale icon">
+                                <span class="d-none d-sm-block">
+                                    <img src="images/scale.png" alt="scale icon">
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -428,9 +442,11 @@
                                 <img src="images/basket%20w.png" alt="basket icon">
                                 <a href="#" class="ps-2">В корзину</a>
                             </div>
-                            <div class="card_icons d-flex align-items-center ps-3">
+                            <div class="card_icons d-flex align-items-center p-1 p-sm-3">
                                 <img src="images/like.png" alt="like icon">
-                                <img src="images/scale.png" alt="scale icon">
+                                <span class="d-none d-sm-block">
+                                    <img src="images/scale.png" alt="scale icon">
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -454,9 +470,11 @@
                                 <img src="images/basket%20w.png" alt="basket icon">
                                 <a href="#" class="ps-2">В корзину</a>
                             </div>
-                            <div class="card_icons d-flex align-items-center ps-3">
+                            <div class="card_icons d-flex align-items-center p-1 p-sm-3">
                                 <img src="images/like.png" alt="like icon">
-                                <img src="images/scale.png" alt="scale icon">
+                                <span class="d-none d-sm-block">
+                                    <img src="images/scale.png" alt="scale icon">
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -480,9 +498,11 @@
                                 <img src="images/basket%20w.png" alt="basket icon">
                                 <a href="#" class="ps-2">В корзину</a>
                             </div>
-                            <div class="card_icons d-flex align-items-center ps-3">
+                            <div class="card_icons d-flex align-items-center p-1 p-sm-3">
                                 <img src="images/like.png" alt="like icon">
-                                <img src="images/scale.png" alt="scale icon">
+                                <span class="d-none d-sm-block">
+                                    <img src="images/scale.png" alt="scale icon">
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -501,13 +521,16 @@
         </div>
     </section>
 
-    <div class="news_line"></div>
+    <div class="news_line d-none d-sm-block"></div>
 
     <section>
         <div class="container">
-            <div class="news_columns d-flex pb-5">
-                <div class="news_text col-3 pe-3">
-                    <img src="images/3nov.png" alt="date">
+            <div class="news_columns d-flex flex-column flex-sm-row pb-5">
+                <div class="news_text col-12 col-sm-3 pe-3">
+                    <span class="d-none d-sm-block">
+                        <img src="images/lolipop.png" alt="date">
+                    </span>
+                    <h4>3 ноября</h4>
                     <h5>Изменения на сайте</h5>
                     <p class="pt-2">Недавно на сайте мы ввели
                         очередную порцию изменений,
@@ -517,8 +540,11 @@
                         пользователей. Реакция посетителей
                         не заставила себя долго ждать...</p>
                 </div>
-                <div class="news_text col-3 pe-3">
-                    <img src="images/2nov.png" alt="date">
+                <div class="news_text col-12 col-sm-3 pe-3">
+                    <span class="d-none d-sm-block">
+                        <img src="images/lolipop.png" alt="date">
+                    </span>
+                    <h4>2 ноября</h4>
                     <h5>Вышла новая версия для
                         мобильных приложений</h5>
                     <p class="pt-2">Что нового в 2.0:
@@ -526,8 +552,11 @@
                         <br>— добавлена синхронизация с сервером;
                         <br>— испрвление ошибок.</p>
                 </div>
-                <div class="news_text col-3 pe-3">
-                    <img src="images/1nov.png" alt="date">
+                <div class="news_text col-12 col-sm-3 pe-3">
+                    <span class="d-none d-sm-block">
+                        <img src="images/lolipop.png" alt="date">
+                    </span>
+                    <h4>1 ноября</h4>
                     <h5>Очередная порция обновлений для
                         мобильных приложений</h5>
                     <p class="pt-2">Что нового добавлено:
@@ -537,8 +566,11 @@
                         <br>— возможность поиска;
                         <br>— исправление ошибок.</p>
                 </div>
-                <div class="news_text col-3 pe-3">
-                    <img src="images/31dec.png" alt="date">
+                <div class="news_text col-12 col-sm-3 pe-3">
+                    <span class="d-none d-sm-block">
+                        <img src="images/lolipop.png" alt="date">
+                    </span>
+                    <h4>31 октября</h4>
                     <h5>Интерфейс заказов для покупателей
                         стал более функциональным</h5>
                     <p class="pt-2">Он позволяет выводить все
@@ -553,7 +585,7 @@
 
     <footer>
         <div class="container">
-            <div class="footer_columns d-flex justify-content-between">
+            <div class="footer_columns d-flex flex-column flex-sm-row justify-content-between">
                 <div class="footer_column">
                     <div class="footer_title pt-5 pb-3">
                         <h2>КАТАЛОГ</h2>
@@ -610,18 +642,14 @@
                                 <br>info@avt-zap.ru</h2>
                         </li>
                         <li>
-                            <h3>Мы онлайн, воспользуйтесь</h3>
+                            <h3>Мы онлайн, воспользуйтесь
+                                <br>
+                                <span>Форма обратной связи</span>
+                            </h3>
                         </li>
                         <li>
                             <h3>Подпишитесь на нашу расслыку и
                                 <br>вы первыми узнаете о скидках и акциях</h3>
-                        </li>
-                        <li>
-                            <div class="input-group position-absolute">
-                                <input type="text" class="form-control" placeholder="Введите ваш email"
-                                       aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <span class="input-group-text" id="basic-addon2">Подписаться</span>
-                            </div>
                         </li>
                     </ul>
                 </div>
@@ -636,7 +664,11 @@
                                 <br>ул. Планировочная, 5, офис 105</h2>
                         </li>
                         <li>
-                            <h4>Форма обратной связи</h4>
+                            <div class="input-group position-absolute">
+                                <input type="text" class="form-control" placeholder="Введите ваш email"
+                                       aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon2">Подписаться</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -647,7 +679,7 @@
                 <img src="images/twitter.png" alt="twitter icon">
                 <img src="images/google-plus%201.png" alt="google icon">
             </div>
-            <p class="footer_end pt-4 pb-3">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
+            <p class="footer_end pt-4 pb-3 m-0">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
         </div>
     </footer>
 
