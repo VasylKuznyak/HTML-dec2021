@@ -34,7 +34,9 @@ header {
     width: 66px;
     height: 71px;
 }
-
+.contacts{
+    padding-left: 50px;
+}
 .company_name h2,
 .contacts h2 {
     font-style: normal;
@@ -79,9 +81,8 @@ nav {
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-
-.nav_top {
-    column-gap: 60px;
+.icon_block{
+    column-gap: 50px;
 }
 
 .whatsapp {
@@ -121,7 +122,11 @@ nav {
     margin-right: 85px;
     max-width: 520px;
     height: 53px;
-    background: #F4F5FA;
+    border-radius: 6px 0 0 6px;
+}
+.nav_bot .input-group{
+    width: 549px;
+    height: 53px;
     border-radius: 6px 0 0 6px;
 }
 
@@ -484,18 +489,6 @@ footer {
     color: #858CAB;
 }
 
-.footer_columns .form-control {
-    border: 1px solid #203246;
-    box-sizing: border-box;
-    border-radius: 6px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #ADBDD1;
-    background: #0C1A2A;
-}
-
 .input-group-text {
     font-style: normal;
     font-weight: normal;
@@ -509,6 +502,9 @@ footer {
 
 .footer_icons {
     column-gap: 55px;
+}
+.footer_nav .form-control{
+    background: #0C1A2A;
 }
 
 .footer_end {
