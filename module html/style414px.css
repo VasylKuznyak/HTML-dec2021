@@ -102,12 +102,12 @@
         height: 127px;
     }
 
-    .middle_buttons {
+       .middle_buttons {
+        overflow: hidden;
         column-gap: 10px;
-        min-width: 510px;
     }
 
-    .card_btn {
+     .card_btn {
         width: 110px;
         height: 35px;
         margin-right: 10px;
