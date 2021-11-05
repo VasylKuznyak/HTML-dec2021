@@ -107,8 +107,8 @@
     }
 
     .middle_buttons {
+        overflow: hidden;
         column-gap: 10px;
-        min-width: 510px;
     }
 
     .card_btn {
