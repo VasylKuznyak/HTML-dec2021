@@ -34,9 +34,11 @@ header {
     width: 66px;
     height: 71px;
 }
-.contacts{
+
+.contacts {
     padding-left: 50px;
 }
+
 .company_name h2,
 .contacts h2 {
     font-style: normal;
@@ -81,7 +83,8 @@ nav {
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-.icon_block{
+
+.icon_block {
     column-gap: 50px;
 }
 
@@ -124,7 +127,8 @@ nav {
     height: 53px;
     border-radius: 6px 0 0 6px;
 }
-.nav_bot .input-group{
+
+.nav_bot .input-group {
     width: 549px;
     height: 53px;
     border-radius: 6px 0 0 6px;
@@ -503,7 +507,8 @@ footer {
 .footer_icons {
     column-gap: 55px;
 }
-.footer_nav .form-control{
+
+.footer_nav .form-control {
     background: #0C1A2A;
 }
 

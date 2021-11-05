@@ -1,4 +1,4 @@
-@media (min-width: 321px) and (max-width: 414px){
+@media (min-width: 321px) and (max-width: 414px) {
     .nav_top {
         column-gap: 0;
     }
@@ -35,7 +35,11 @@
         height: 125px;
     }
 
-     .carousel-item__left {
+    .contacts {
+        padding: 0;
+    }
+
+    .carousel-item__left {
         padding-right: 60px;
     }
 
@@ -120,7 +124,8 @@
     .footer_icons {
         padding: 21px;
     }
-    .footer_nav{
+
+    .footer_nav {
         display: flex;
         align-items: start;
     }
